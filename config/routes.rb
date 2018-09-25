@@ -54,5 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  resources :posts, only :show
+  resources :posts, only: :show
 end
